@@ -1,0 +1,64 @@
+Cluster: 0
+------------------------------------------------------------------------------------------------------------------------
+Sentiment: very positive | Aggressiveness: non-aggressive | Satisfaction: fully satisfied | Score: very high score
+------------------------------------------------------------------------------------------------------------------------
+email Content:
+-
+Subject: Introducing NER Tasty – A New Delight Just for You!
+
+Dear Valued Customer,
+
+We’re thrilled to share exciting news from NER Products! Based on your wonderful feedback and high satisfaction scores, we are proud to introduce our latest creation: **NER Tasty**. Crafted with the finest ingredients, NER Tasty promises to elevate your culinary experience while maintaining the quality you love.
+
+Your positive sentiment inspires us every day, and we can’t wait for you to try this new addition. We’re confident it will meet your expectations and become a new favorite in your kitchen.
+
+Thank you for being a part of the NER family. Enjoy exploring NER Tasty!
+
+Warm regards,
+
+The NER Products Team
+
+
+Cluster: 1
+------------------------------------------------------------------------------------------------------------------------
+Sentiment: negative | Aggressiveness: assertive | Satisfaction: dissatisfied | Score: average score
+------------------------------------------------------------------------------------------------------------------------
+email Content:
+-
+Subject: Introducing NER Tasty – Your Feedback Inspired Us!
+
+Dear Valued Customer,
+
+At NER Products, we truly appreciate your feedback, and we’ve been listening closely. We understand that some of our previous offerings haven’t met your expectations, and we’re committed to making things right.
+
+We are excited to introduce "NER Tasty," a product designed with your insights in mind. With improved flavors and quality, we aim to enhance your experience and satisfaction. 
+
+Your opinion matters to us, and we hope NER Tasty will turn your past frustrations into delightful moments. 
+
+We invite you to give it a try and share your thoughts!
+
+Thank you for being part of the NER family.
+
+Best regards,  
+The NER Products Team
+
+
+Cluster: 2
+------------------------------------------------------------------------------------------------------------------------
+Sentiment: positive | Aggressiveness: non-aggressive | Satisfaction: satisfied | Score: high score
+------------------------------------------------------------------------------------------------------------------------
+email Content:
+-
+Subject: Introducing NER Tasty – A Delight for Your Palate!
+
+Dear Valued Customer,
+
+We’re excited to introduce our latest creation, NER Tasty! Crafted with your feedback in mind, this new product promises to elevate your culinary experience. With a delightful blend of flavors, NER Tasty is designed to satisfy your taste buds while maintaining the quality you expect from NER Products.
+
+Your positive sentiments and high satisfaction scores inspire us to innovate continuously. We are confident that NER Tasty will become a new favorite in your kitchen!
+
+Thank you for being a cherished part of the NER Products family. We can’t wait for you to try NER Tasty!
+
+Warm regards,
+
+The NER Products Team
