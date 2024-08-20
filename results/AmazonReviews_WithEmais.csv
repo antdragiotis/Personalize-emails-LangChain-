@@ -1,0 +1,65 @@
+,Cluster,Sentiment_mean,Aggressiveness_mean,Satisfaction_mean,Score_mean,Sentiment,Aggressiveness,Satisfaction,Score,email_content
+0,0,5,1,5,5,very positive,non-aggressive,fully satisfied,very high score,"Subject: Introducing NER Tasty – A Flavorful Delight Just for You!
+
+Dear Valued Customer,
+
+We are thrilled to introduce our latest creation, **NER Tasty**! Crafted with your feedback in mind, this product promises to elevate your culinary experiences. With its delectable flavors and high-quality ingredients, we are confident that NER Tasty will become a new favorite in your kitchen.
+
+Your enthusiasm and satisfaction inspire us to innovate, and we are proud to present a product that reflects the very positive sentiments you’ve shared with us. Thank you for being a vital part of the NER Products family!
+
+We can’t wait for you to try NER Tasty and share your thoughts!
+
+Warm regards,  
+The NER Products Team"
+1,1,2,5,2,3,negative,assertive,dissatisfied,average score,"Subject: Introducing NER Tasty – A New Flavor Experience!
+
+Dear Valued Customer,
+
+We appreciate your feedback and understand that your recent experiences with our products haven’t met your expectations. We're committed to improving, which is why we're excited to introduce ""NER Tasty"" – a product designed with your preferences in mind.
+
+NER Tasty aims to elevate your culinary experience with bold flavors and high-quality ingredients. We believe this new addition will address your concerns and enhance your satisfaction.
+
+Try NER Tasty today and let us know what you think! Your opinion is vital in our journey to deliver the best.
+
+Thank you for being a part of the NER Products family.
+
+Best regards,  
+The NER Products Team"
+2,2,4,2,4,4,positive,non-aggressive,satisfied,high score,"Subject: Introducing NER Tasty – A Delicious New Addition!
+
+Dear Valued Customer,
+
+We are thrilled to introduce our latest creation: **NER Tasty**! Crafted with your positive feedback in mind, this new product promises to deliver the flavors you love while maintaining the quality you trust. 
+
+We appreciate your satisfaction with our offerings, and we’re confident that NER Tasty will exceed your expectations. With its delightful taste and wholesome ingredients, it’s designed to bring joy to your meals without compromise.
+
+Thank you for being a loyal member of the NER Products family. We can’t wait for you to try NER Tasty and share your thoughts!
+
+Warm regards,  
+The NER Products Team"
+3,3,1,7,1,1,very negative,firmly critical,highly dissatisfied,very low score,"Subject: Introducing NER Tasty – A Fresh Start
+
+Dear Valued Customer,
+
+We understand that your recent experiences with NER Products have not met your expectations, and we genuinely appreciate your feedback. We are committed to turning that around with our new product, NER Tasty.
+
+NER Tasty has been crafted with your insights in mind, focusing on quality ingredients and flavors that truly satisfy. We aim to restore your confidence in our brand and provide you with a delightful experience.
+
+We invite you to try NER Tasty and share your thoughts. Your satisfaction is our priority, and we are eager to earn back your trust.
+
+Thank you for being part of the NER Products family.
+
+Best regards,  
+The NER Products Team"
+4,4,4,1,5,5,positive,non-aggressive,fully satisfied,very high score,"Subject: Introducing NER Tasty – A New Delight for Your Taste Buds!
+
+Dear Valued NER Products Customer,
+
+We are thrilled to announce the launch of our latest creation, **NER Tasty**! Crafted with your feedback in mind, this product promises to elevate your culinary experience. 
+
+You’ve expressed such positive sentiments and high satisfaction with our offerings, and we’re excited to bring you something that embodies that enthusiasm. NER Tasty is designed to delight your palate without any compromise, ensuring a non-aggressive yet satisfying flavor profile that you’ll love.
+
+Thank you for being a part of the NER family. We can’t wait for you to try NER Tasty and share your thoughts!
+
+Warm regards,  
+The NER Products Team"
