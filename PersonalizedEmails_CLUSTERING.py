@@ -24,7 +24,6 @@ pd.options.display.float_format = '{:,.2f}'.format
 # LOADING Labeled File
 df = pd.read_csv(LabeledFileName)
 
-df = df.drop(["Unnamed: 0"], axis=1)
 # Initial Data Profiling 
 print(f"Shape: {df.shape}\n")
 print(f"DataFrame Info: {df.info()}\n")
