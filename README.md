@@ -3,7 +3,7 @@ This application leverages OpenAI and LangChain functionalities to extract struc
 
 The current application is not to be used for direct integration into a production environment. Instead, it serves as a demonstration of how OpenAI models can be leveraged to customize communications based on historical events and data.
 
-### Incentive 
+### Purpose 
 In today's competitive market, effective communication between businesses and their customers is essential, especially when introducing new products or services. Tailoring these messages to reflect the unique relationship a customer has with a business can significantly enhance engagement. 
 This project explores a sequence of steps that leverage customer comments to classify their acceptance and satisfaction levels with the company's products. By analyzing these insights, businesses can generate personalized promotional content when launching new products. This approach improves communication by aligning it more closely with customers' past experiences and perceptions, thereby fostering a more meaningful connection.
 
