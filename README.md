@@ -13,8 +13,8 @@ The generation of emails contents follows the below steps:
 ![Process Overview](Personalized_Emails_Overview.png)
 
 ### Features
-- **Source Data**: The application uses as source data file the **Amazon Fine Food Reviews** (file:///D:/DATASETS/AMAZON%20Fine%20Food%20Reviews/Amazon%20Fine%20Food%20Reviews.mhtml) 
-This dataset consists of reviews of fine foods from amazon. The most recent 1,000 records have been selected from this dataset. The text fileds *Summary* and *Text* are added in a new field *Comment* that is to be fed to the LLM for the labeling process.
+- **Source Data**: The application uses as source data file the **Amazon Fine Food Reviews** (https://www.kaggle.com/datasets/snap/amazon-fine-food-reviews)
+This dataset comprises reviews of fine foods sourced from Amazon. The most recent 1,000 records have been selected for this analysis. The fields labeled *Summary* and *Text* have been combined into a new field titled *Comment*, which is to be utilized in the labeling process by the Language Learning Model (LLM).
 - **Labeling process**: The run of *PersonalizedEmails_LABELING.py* invokes OpenAI LLM model to extract from each *Ccomment* a structure of required data:
   - **product**: as the product that the buyer is commenting on
   - **sentiment**: as the sentiment expressed in the text, categorized as: 'very negative,' 'negative,' 'neutral,' 'positive,' or 'very positive
@@ -23,7 +23,7 @@ This dataset consists of reviews of fine foods from amazon. The most recent 1,00
   - **confidence**: as the confidence level in the extracted properties, rated on a scale from 1 to 5. The confidence level is used to filter the data excluding records with low confidence  
 The process saves the results as *intermediate_data/Amazon_Reviews_Labeled.csv*
 - **Clustering**: The run of the *PersonalizedEmails_CLUSTERING.py* excludes records with customers' feddback discrepancies (i.e. when Score given by a customer is quite different from the *sentiment* of *satisfaction* level). The *kMeans* model is used to cluster the data and the results are saved in *intermediate_data/Amazon_Reviews_Clustered.csv*.  The Jupyter file *PersonalizedEmails_CLUSTERING.ipynb* is also available as it contains useful visualization outputs. 
-- **Text Generation**: The run of the *PersonalizedEmails_Text_Generation.py*  gets the results of the Clustering process and maps the numerical values of each Cluster (actually the mean values) to categorial values. These categorial values are used to formulate a prompt per Cluster and ask a LLM to generate email context. The results are saved in *results/AmazonReviews_WithEmais.csv*
+- **Text Generation**: The execution of the *PersonalizedEmails_Text_Generation.py* script processes the output from the clustering analysis by mapping the numerical values of each cluster, specifically the mean values, to corresponding categorical values. These categorical values are then utilized to create a prompt for each cluster, which is subsequently used to generate email content using a Large Language Model (LLM). The generated email content is then saved in the file *results/AmazonReviews_WithEmails.csv*.
 
 - ### How to run the app:
 - https://github.com/antdragiotis/Personalize-emails-LangChain-
