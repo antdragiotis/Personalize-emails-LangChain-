@@ -1,0 +1,9 @@
+pandas
+numpy
+tqdm
+langchain
+pydantic
+sklearn
+sklearn.preprocessing
+matplotlib
+seaborn
