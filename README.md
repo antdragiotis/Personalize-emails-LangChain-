@@ -26,10 +26,10 @@ The process saves the results as *intermediate_data/Amazon_Reviews_Labeled.csv*
 - **Text Generation**: The execution of the *PersonalizedEmails_Text_Generation.py* script processes the output from the clustering process by mapping the numerical values of each cluster, specifically the mean values, to corresponding categorical values. These categorical values are then utilized to create a prompt for each cluster, which is subsequently used to generate email content with the use of the LLM. The generated email content is then saved in the file *results/AmazonReviews_WithEmails.csv*. In the *results* directory there is also the file *Sample of generated Personalized Emails.txt* with the result of the Text Generation process. 
 
 - ### How to run the app:
-- https://github.com/antdragiotis/Personalize-emails-LangChain-
-- change directory to cloned repository cd your-folder-path
+- clone the repository: https://github.com/antdragiotis/Personalize-emails-LangChain-
+- change current directory to cloned repository
 - pip install -r requirements.txt 
-- run the three processes described above as: 
+- run the three Python files as the processes described above: 
   - PersonalizedEmails_LABELING.py
   - PersonalizedEmails_CLUSTERING.py
   - PersonalizedEmails_Text_Generation.py
