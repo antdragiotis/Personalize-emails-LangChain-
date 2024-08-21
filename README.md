@@ -29,9 +29,9 @@ The process saves the results as *intermediate_data/Amazon_Reviews_Labeled.csv*
 - clone the repository: https://github.com/antdragiotis/Personalize-emails-LangChain-
 - change current directory to cloned repository
 - pip install -r requirements.txt
-- it is assumed that your system has been configured with the OPENAI_API_KEY, otherwise you need to add the following statements to the python code files: 
-      import os
-      os.environ["OPENAI_API_KEY"] = "your-openai-api-key"
+- it is assumed that your system has been configured with the OPENAI_API_KEY, otherwise you need to add the following statements to the python code files:
+  - import os
+  - os.environ["OPENAI_API_KEY"] = "your-openai-api-key"
 - run the three Python files as the processes described above: 
   - PersonalizedEmails_LABELING.py
   - PersonalizedEmails_CLUSTERING.py
